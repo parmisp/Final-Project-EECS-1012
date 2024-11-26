@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8ffe5; 
+    color: #175676;
+    text-align: center;
+}
+
+header {
+    background-color: #4ba3c3; 
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: #175676; 
+    padding: 10px 0;
+}
+
+nav button {
+    background-color: #cce6f4;
+    border: none;
+    color: #175676;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #4ba3c3;
+    color: white;
+}
+
+.welcome {
+    background-color: #d4c5e2; 
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.welcome h2 {
+    font-size: 24px;
+    color: #175676;
+}
+
+.welcome p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.dorms {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 1000px;
+}
+
+.dorms h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #175676;
+}
+
+.dorm {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 0;
+}
+
+.dorm img {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.dorm p {
+    font-size: 14px;
+    color: #175676;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #175676; 
+    color: white;
+    padding: 10px;
+}
+
+
